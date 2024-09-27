@@ -1,0 +1,109 @@
+p{
+font-family: Roboto, Arial;
+margin: 0;
+}
+
+.img{
+  border-radius: 8px;
+  width: 100%;
+  
+}
+
+.main{
+  background-color: whitesmoke ;
+  padding: 25px;
+  
+}
+
+.body{
+  display: flex;
+  background-color: #f3e5d8 ;
+  margin-top: 70px;
+  margin-bottom: 69px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.img-div{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+}
+
+.simple-letter{
+  font-size:25px ;
+  font-weight: bold;
+  margin-bottom: 15px;
+
+}
+
+.easy-letter{
+  color: grey;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.Preparation-div{
+  background-color: rgb(253, 221, 225);
+  padding: 12px;
+  margin-bottom: 30px;
+}
+
+.Preparation-time{
+  font-weight: bold;
+  color: rgb(223, 49, 49);
+}
+
+.total{
+  font-weight: bold;
+}
+
+.total-margin{
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.Ingredients{
+  font-weight: bold;
+  color: rgb(194, 75, 75);
+  margin-bottom:20px ;
+}
+
+
+
+li::marker {
+  color: rgb(194, 75, 75); /* Change bullet color */
+  font-size: 13px; /* Adjust size if needed */
+  font-weight: bold;
+}
+
+.table{
+  color: grey;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.carbs{
+  color: grey;
+  font-size: 13px;
+  width: 50%;
+ }
+
+.span-color{
+  color: rgb(194, 75, 75);
+  font-weight: bold;
+  width: 50% ;
+  
+}
+.flex_table{
+  padding: 10px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(233, 219, 219);
+}
+  
+  
+
